@@ -1,16 +1,16 @@
 describe("Practical task", () =>{
-    // it("I Can Win", async () =>{
-    //     await browser.url("https://pastebin.com/")
-    //     let inputValue = 'Hello from WebDriver'
-    //     const inputArea = await $("#postform-text").setValue(inputValue)
-    //     const dropdownExpiration = await $('#select2-postform-expiration-container').click()
-    //     const tenMinutes = await $("/html/body/span[2]/span/span[2]/ul/li[3]").click()
-    //     const pasteName = await $("#postform-name").setValue("helloweb")
-    //     const submit = await $("button.btn.-big").click()
-    //     const result = await $(".de1")
-    //     await expect(result).toHaveText(inputValue)
+    it("I Can Win", async () =>{
+        await browser.url("https://pastebin.com/")
+        let inputValue = 'Hello from WebDriver'
+        const inputArea = await $("#postform-text").setValue(inputValue)
+        const dropdownExpiration = await $('#select2-postform-expiration-container').click()
+        const tenMinutes = await $("/html/body/span[2]/span/span[2]/ul/li[3]").click()
+        const pasteName = await $("#postform-name").setValue("helloweb")
+        const submit = await $("button.btn.-big").click()
+        const result = await $(".de1")
+        await expect(result).toHaveText(inputValue)
 
-    // })
+    })
 
     it("Bring it on", async () =>{
         await browser.url("https://pastebin.com/")
